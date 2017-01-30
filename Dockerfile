@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.1.1-java
+ENV VERSION=1.1.2
 
 RUN gem install bel_parser --version ${VERSION} --no-format-exec
 
